@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-image: url(../img/bj.png); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.section {
+    padding: 20px;
+	text-align: center;
+}
+
+.section h2 {
+    color: #333;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-item {
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+	text-align: center;
+}
+
+.image-item img {
+    width: 80%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-item:hover img {
+    transform: scale(1.1);
+}
+
+#backBtn {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+	text-align: center;
+}

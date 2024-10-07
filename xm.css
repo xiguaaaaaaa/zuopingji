@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, sans-serif;
+	min-width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	background-image: url(../img/bj.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
+
+.project {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+.project h2 {
+	color: #333;
+	float: left;
+	text-align: center;
+}
+.project p {
+	margin: 10px 0;
+	text-align: center;
+}
+#backBtn {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+	text-align: right;
+}
